@@ -4,7 +4,7 @@ body {
 
 .principal{
     background-color: rgb(61, 198, 252);
-    padding: 50px;
+    padding:30px;
 }
 
 .items{
@@ -12,7 +12,7 @@ body {
 }
 
 .beneficios{
-    background-color: rgb(208, 127, 255);
+    background: rgb(208, 127, 255);
     padding: 20px;
 }
 
