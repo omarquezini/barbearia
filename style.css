@@ -48,3 +48,11 @@ ul{
 #cenigal{
     font-size: 100px;
 }
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.centralizado{
+    text-align: center;
+}
