@@ -20,32 +20,69 @@
 
         <nav>
             <ul>
-                <li><a href="index.html">Home_</a> </li>
-                <li><a href="produtos.html">_produtos_</a></li>
-                <li><a href="bingo.html">_Bingo "legal" todo sabado a noite_</a></li>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="produtos.html">produtos</a></li>
+                <li><a href="bingo.html">Bingo "legal" todo sabado a noite</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <form>
-            <h1>Fale conosco</h1>
-            <fieldset>
-                <p>Nome Sobrenome</p>
-                <imput type="text" class="input-texto" required>
+       <form>
+           <h1> FALE CONOSCO </h1>
+           <fieldset>
+               <p>Nome e Sobrenome</p>
+               <input type="text" class="input-texto" required>
 
-                    <p>Email</p>
-                    <imput type="text" class="input-texto" required placeholder="ligin@dominio.com">
 
-                        <p>telefone</p>
-                        <imput type="tel" class="input-texto" required placeholder="(99) 9 999-9999">
+               <p>E-mail</p>
+               <input type="text" class="input-texto" required placeholder="login@dominio.com">
 
-                            <p>mensagem</p>
-                            <textarea cols="120" rows="10" required></textarea>
 
-            </fieldset>
-        </form>
-    </main>
+               <p>Telefone</p>
+               <input type="tel" class="input-texto" required placeholder="(99) 9 9999-9999">
+
+
+               <p>Mensagem</p>
+               <textarea cols="70" rows="10" required></textarea>
+
+
+           </fieldset>
+
+
+           <fieldset>
+               <fieldset>
+                   <legend>Como prefere o nosso contato?</legend>
+                   <p><input type="radio" name="contato" value="email"> Email</p>
+                   <p><input type="radio" name="contato" value="telefone"> Telefone</p>
+                   <p><input type="radio" name="contato" value="whatsapp" checked> WhatsApp</p>
+               </fieldset>
+               <fieldset>
+                   <legend>Qual horário prefere ser atendido?</legend>
+                   <select>
+                       <option>Manhã</option>
+                       <option>Tarde</option>
+                       <option>Noite</option>
+                   </select>
+               </fieldset>
+               <p>
+                   <input type="checkbox" checked>Gostaria de receber nossas novidades por email?
+               </p>
+
+
+               <button class="enviar"> Enviar Formulário </button>
+       </form>
+
+
+
+
+
+
+       </fieldset>
+       </form>
+   </main>
+
+    
 
 
 
